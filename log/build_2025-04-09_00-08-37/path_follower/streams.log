@@ -1,0 +1,48 @@
+[0.312s] Invoking command in '/home/zuriel/puzzlebot_challenges/src/path_follower': PYTHONPATH=/home/zuriel/puzzlebot_challenges/build/path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_follower build --build-base /home/zuriel/puzzlebot_challenges/build/path_follower/build install --record /home/zuriel/puzzlebot_challenges/build/path_follower/install.log --single-version-externally-managed install_data
+[0.432s] running egg_info
+[0.433s] creating ../../build/path_follower/path_follower.egg-info
+[0.433s] writing ../../build/path_follower/path_follower.egg-info/PKG-INFO
+[0.433s] writing dependency_links to ../../build/path_follower/path_follower.egg-info/dependency_links.txt
+[0.433s] writing entry points to ../../build/path_follower/path_follower.egg-info/entry_points.txt
+[0.433s] writing requirements to ../../build/path_follower/path_follower.egg-info/requires.txt
+[0.433s] writing top-level names to ../../build/path_follower/path_follower.egg-info/top_level.txt
+[0.433s] writing manifest file '../../build/path_follower/path_follower.egg-info/SOURCES.txt'
+[0.434s] reading manifest file '../../build/path_follower/path_follower.egg-info/SOURCES.txt'
+[0.434s] writing manifest file '../../build/path_follower/path_follower.egg-info/SOURCES.txt'
+[0.434s] running build
+[0.434s] running build_py
+[0.435s] creating /home/zuriel/puzzlebot_challenges/build/path_follower/build
+[0.435s] creating /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib
+[0.435s] creating /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower
+[0.435s] copying path_follower/controller.py -> /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower
+[0.435s] copying path_follower/polygon_publisher.py -> /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower
+[0.435s] copying path_follower/path_publisher.py -> /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower
+[0.435s] copying path_follower/Polygon_IMU.py -> /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower
+[0.435s] copying path_follower/__init__.py -> /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower
+[0.435s] running install
+[0.435s] running install_lib
+[0.435s] creating /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower
+[0.435s] copying /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower/controller.py -> /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower
+[0.435s] copying /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower/polygon_publisher.py -> /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower
+[0.435s] copying /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower/path_publisher.py -> /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower
+[0.435s] copying /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower/Polygon_IMU.py -> /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower
+[0.435s] copying /home/zuriel/puzzlebot_challenges/build/path_follower/build/lib/path_follower/__init__.py -> /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower
+[0.436s] byte-compiling /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower/controller.py to controller.cpython-310.pyc
+[0.436s] byte-compiling /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower/polygon_publisher.py to polygon_publisher.cpython-310.pyc
+[0.437s] byte-compiling /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower/path_publisher.py to path_publisher.cpython-310.pyc
+[0.437s] byte-compiling /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower/Polygon_IMU.py to Polygon_IMU.cpython-310.pyc
+[0.438s] byte-compiling /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower/__init__.py to __init__.cpython-310.pyc
+[0.438s] running install_data
+[0.438s] creating /home/zuriel/puzzlebot_challenges/install/path_follower/share/ament_index
+[0.438s] creating /home/zuriel/puzzlebot_challenges/install/path_follower/share/ament_index/resource_index
+[0.438s] creating /home/zuriel/puzzlebot_challenges/install/path_follower/share/ament_index/resource_index/packages
+[0.438s] copying resource/path_follower -> /home/zuriel/puzzlebot_challenges/install/path_follower/share/ament_index/resource_index/packages
+[0.438s] copying package.xml -> /home/zuriel/puzzlebot_challenges/install/path_follower/share/path_follower
+[0.438s] running install_egg_info
+[0.439s] Copying ../../build/path_follower/path_follower.egg-info to /home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages/path_follower-0.0.0-py3.10.egg-info
+[0.439s] running install_scripts
+[0.450s] Installing path_pub script to /home/zuriel/puzzlebot_challenges/install/path_follower/lib/path_follower
+[0.450s] Installing polygon_imu script to /home/zuriel/puzzlebot_challenges/install/path_follower/lib/path_follower
+[0.450s] Installing polygon_publisher script to /home/zuriel/puzzlebot_challenges/install/path_follower/lib/path_follower
+[0.450s] writing list of installed files to '/home/zuriel/puzzlebot_challenges/build/path_follower/install.log'
+[0.462s] Invoked command in '/home/zuriel/puzzlebot_challenges/src/path_follower' returned '0': PYTHONPATH=/home/zuriel/puzzlebot_challenges/build/path_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zuriel/puzzlebot_challenges/install/path_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_follower build --build-base /home/zuriel/puzzlebot_challenges/build/path_follower/build install --record /home/zuriel/puzzlebot_challenges/build/path_follower/install.log --single-version-externally-managed install_data
