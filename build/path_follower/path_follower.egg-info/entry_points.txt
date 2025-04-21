@@ -1,8 +1,0 @@
-[console_scripts]
-closed_loop_controller = path_follower.closed_loop_controller:main
-controller = path_follower.controller:main
-localisation = path_follower.localisation:main
-path_pub = path_follower.path_publisher:main
-polygon_imu = path_follower.Polygon_IMU:main
-polygon_publisher = path_follower.polygon_publisher:main
-

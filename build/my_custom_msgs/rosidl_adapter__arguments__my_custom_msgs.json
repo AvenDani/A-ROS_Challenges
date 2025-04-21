@@ -1,6 +1,0 @@
-{
-  "package_name": "my_custom_msgs",
-  "non_idl_tuples": [
-    "/home/zuriel/puzzlebot_challenges/src/my_custom_msgs:msg/PathPose.msg"
-  ]
-}
